@@ -12,5 +12,4 @@ random_art <- function(seed,steps,lines =1){
   plot(mat[,1:2],type="l",main="",xlab="",ylab="", xaxt='n',yaxt="n")
 }
 
-random_art(17, 5000, 5)
-
+random_art()
